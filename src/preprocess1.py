@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 def preprocess_data():
     
     # Load dataset
-    data = pd.read_csv("C:/Users/Dell/Desktop/MLOps Lab programs/Program2/src/data/Irisdataset.csv")
+    data = pd.read_csv("data/Irisdataset.csv")
     # Create DataFrame
     df = pd.DataFrame(data)
 
